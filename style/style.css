@@ -6,9 +6,9 @@
   --font-wg-title: 700;
   --font-sz-main: 1.125rem;  
   --font-sz-title: 192px;
-  --color-background: #bbb0a1;
-  --color-main: #3F4249;
-  --color-accent: #006DFF;
+  --color-background: #8e8e92;
+  --color-main: #393b3f;
+  --color-accent: #d0ff00;
 }
 
 *,
@@ -95,8 +95,8 @@ ol {
 
 .menu__item {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   justify-content: center;
 }
 
@@ -160,6 +160,7 @@ ol {
   top: -5%;
   width: clamp(9.375rem, 7.1429rem + 4.4643vw, 12.5rem);
   border-radius: 20px;
+  filter: grayscale(100%);
 }
 
 .my-photo {
@@ -172,6 +173,7 @@ ol {
   border-radius: 20px;
   left: 9%;
   top: 75%;
+  filter: grayscale(100%);
 }
 
 .header__accent-icon {
